@@ -60,13 +60,14 @@ function HomeScreen(props) {
       ) : error ? (
         <div>{error}</div>
       ) : (
-        <ul className="products">
-          {products.map((product) => (
-            <li key={product.id}>
-              <Product product={product}/>
-            </li>
-          ))}
-        </ul>
+        // <ul className="products">
+        //   {products.map((product) => (
+        //     <li key={product.id}>
+        //       <Product product={product}/>
+        //     </li>
+        //   ))}
+        // </ul>
+        console.log('abhishek')
       )}
     </>
   )
